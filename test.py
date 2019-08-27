@@ -1,8 +1,6 @@
 import numpy as np
-d = np.array([['1', '2', '3', 'Andrew'], ['4', '5', '6', 'Davis']])
 
-print(d,"\n")
 
-x = d[:,0:-1]
+fname = raw_input('Enter filename...')
 
-print(x)
+fileObject = open(fname, 'r') 
